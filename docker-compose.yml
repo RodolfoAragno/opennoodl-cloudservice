@@ -23,7 +23,7 @@ services:
       PORT: 3000
       MASTER_KEY: mymasterkey
       APP_ID: myappid
-      DATABASE_URI: mongodb://yourusername:yourpassword@mongodb-1:27017/noodlapp?authSource=admin
+      DATABASE_URI: mongodb://yourusername:yourpassword@noodlapp-mongodb:27017/noodlapp?authSource=admin
       PUBLIC_SERVER_URL: https://noodl.rsoft.ar/
     links:
       - mongodb
